@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broker Dashboard</title>
+
+    <!--Styles sheet-->
+    <link rel="stylesheet" href="./src/styles/variables.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
+
+    <!--Material Icons CDN-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!--Google Fonts (Poppins)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="max-width">
+        <nav>
+            <div class="container">
+                <img class="logo" src="./assets/images/logo.png" alt="Logo da empresa" />
+
+                <div class="search-bar">
+                    <span class="material-symbols-outlined">search</span>
+                    <input type="search" placeholder="Search">
+                </div>
+                <section class="profile-area">
+                    <div class="theme-btn">
+                        <span class="material-symbols-outlined active" >light_mode</span>
+                        <span class="material-symbols-outlined">dark_mode</span>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-photo">
+                            <img src="./assets/images/profile-1.jpg" alt="Photo profile" />
+                        </div>
+                        <h5>Chu Hua</h5>
+                        <span class="material-symbols-outlined">expand_more</span>
+                    </div>
+                    <button id="menu-btn">
+                        <span class="material-symbols-outlined">menu</span>
+                    </button>
+                </section>
+            </div>
+        </nav>
+    </header><!--End od header-->
+    <main class="max-width">
+        <aside>
+            <button id="close-btn">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+            <section class="sidebar">
+                <a href="#">
+                    <span class="material-symbols-outlined">dashboard</span>
+                    <h4>Dashboard</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">currency_exchange</span>
+                    <h4>Exchange</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">account_balance_wallet</span>
+                    <h4>Wallet</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">credit_card</span>
+                    <h4>Transactions</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">query_stats</span>
+                    <h4>Analytics</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">sms</span>
+                    <h4>Messages</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">help</span>
+                    <h4>Help Center</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">settings</span>
+                    <h4>Settings</h4>
+                </a>
+            </section><!--End of sidebar-->
+            <div class="updates">
+                <span class="material-symbols-outlined">update</span>
+                <h4>Updates Available</h4>
+                <small>Security Updates</small>
+                <small>General Updates</small>
+                <a href="#">Updates Now</a>
+            </div>
+        </aside><!--End of aside-->
+
+        <section class="middle">
+        </section><!--End of middle-->
+
+        <section class="right">
+        </section><!--End of right-->
+    </main><!--End of main-->
+</body>
+
+</html>
